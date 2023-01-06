@@ -1,0 +1,32 @@
+.App {
+  width:30%;
+  margin:auto;
+  text-align: center;
+}
+.App-header{
+
+}
+.TopNav{
+  width:80%;
+  margin: auto;
+  justify-content: center;
+  display:flex;
+  background-color: #0aa10a;
+
+}
+.navDiv{
+  padding:5px;
+  margin-right:20px;
+}
+.navDiv a{
+  text-decoration: none;
+
+}
+.navDiv a:visited{
+  color:black;
+
+}
+.navDiv a:link{
+  color:black;
+
+}
