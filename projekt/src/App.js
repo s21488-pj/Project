@@ -40,7 +40,6 @@ function App() {
           </nav>
           <Routes>
               <Route path="/" element={<Main/>}/>
-
               <Route path="/StanLodowki" element={<StanLodowki />} />
               <Route path="/HistoriaZakupow" element={<HistoriaZakupow />} />
               <Route path="/Sklepy" element={<Sklepy/>} />
