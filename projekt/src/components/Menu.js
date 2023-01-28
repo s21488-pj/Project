@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
-import Main from "./Main";
-import {StanLodowki} from "./StanLodowki";
-import {HistoriaZakupow} from "./HistoriaZakupow";
-import {Sklepy} from "./Sklepy";
-import {Konto} from "./Konto";
+import Main from "../pages/Main";
+import {StanLodowki} from "../pages/StanLodowki";
+import {HistoriaZakupow} from "../pages/HistoriaZakupow";
+import {Sklepy} from "../pages/Sklepy";
+import {Konto} from "../pages/Konto";
 import './Menu.css';
 
 export function Menu(){

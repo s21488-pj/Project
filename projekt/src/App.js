@@ -1,5 +1,5 @@
 import './App.css';
-import Main from "./mainPages/Main";
+import Main from "./pages/Main";
 
 import {
     BrowserRouter as Router,
@@ -7,12 +7,12 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import {StanLodowki} from "./mainPages/StanLodowki";
-import {HistoriaZakupow} from "./mainPages/HistoriaZakupow";
-import {Sklepy} from "./mainPages/Sklepy";
-import {Konto} from "./mainPages/Konto";
-import {Powiadomienia} from "./mainPages/Powiadomienia";
-import {Menu} from "./mainPages/Menu";
+import {StanLodowki} from "./pages/StanLodowki";
+import {HistoriaZakupow} from "./pages/HistoriaZakupow";
+import {Sklepy} from "./pages/Sklepy";
+import {Konto} from "./pages/Konto";
+import {Powiadomienia} from "./pages/Powiadomienia";
+import {Menu} from "./components/Menu";
 
 function App() {
   return (
@@ -40,7 +40,6 @@ function App() {
           </nav>
           <Routes>
               <Route path="/" element={<Main/>}/>
-
               <Route path="/StanLodowki" element={<StanLodowki />} />
               <Route path="/HistoriaZakupow" element={<HistoriaZakupow />} />
               <Route path="/Sklepy" element={<Sklepy/>} />
